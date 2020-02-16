@@ -4,8 +4,10 @@
 # Install and prepare enviroment
 	sudo bash Anaconda3-2019.10-Linux-x86_64.sh
 	conda create --name umaker python==3.7
-	conda activate umaker
-	conda install -c conda-forge opencv # install library
+
+	conda activate env_name  
+	conda install -c conda-forge name_library
+	Example: conda install -c conda-forge opencv # install library
 
 ## Export yml enviroment
 	conda env export > umake.yml
