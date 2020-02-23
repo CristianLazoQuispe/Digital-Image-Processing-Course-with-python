@@ -4,11 +4,14 @@
 # Install and prepare
 	sudo bash Anaconda3-2019.10-Linux-x86_64.sh  (Linux)
 	- Execute Anaconda3-2019.10-Linux-x86_64.exe  (Windows)
-	# Open terminal : 
+	# Open terminal anaconda prompt (windows): 
+	
 	conda create --name umaker python==3.7
 	conda activate env_name  
+		
 	conda install -c conda-forge name_library
-	Example: conda install -c conda-forge opencv # install library
+	Example: conda install -c conda-forge jupyterlab # install jupyter lab
+	Example: conda install -c conda-forge opencv # install library opencv
 # Check libraries
 	conda list 
 ## Export yml enviroment
