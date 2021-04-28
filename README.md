@@ -1,5 +1,6 @@
 # Digital Image Processing using python 
-
+Professor: Cristian Lazo
+email: clazo@uni.pe
 Topics:
   - CLASE 1:
 
